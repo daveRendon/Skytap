@@ -4,6 +4,9 @@ Welcome to the **Skytap Landing Zones on Azure** repository! This project provid
 
 🌟 **Star** this repository to stay updated and show your support!
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/buttons/github-buttons" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star buttons/github-buttons on GitHub">Star</a>
+
 ## Overview
 
 **Skytap on Azure** provides a unique solution for running IBM Power and x86 workloads in the cloud, enabling lift-and-shift migrations without the need to modify the applications or architectures significantly. Skytap Landing Zones are pre-configured environments that follow best practices and guidelines to optimize the deployment of these workloads on Azure.
