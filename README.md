@@ -2,10 +2,10 @@
 
 Welcome to the **Skytap Landing Zones on Azure** repository! This project provides a structured approach to deploying Skytap environments on Azure, facilitating the migration of AIX and IBM i systems to Azure.
 
-🌟 **Star** this repository to stay updated and show your support!
 
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/buttons/github-buttons" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star buttons/github-buttons on GitHub">Star</a>
+<a class="github-button" href="https://github.com/daverendon/skytap" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star daverendon/skytap on GitHub">🌟 **Star** this repository to stay updated and show your support!</a>
+
+
 
 ## Overview
 
