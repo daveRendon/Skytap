@@ -14,7 +14,7 @@ headers = {
 }
 
 # Replace this with your Environment (configuration) ID
-ENVIRONMENT_ID = '159726802'
+ENVIRONMENT_ID = '160281144'
 
 def get_environment(environment_id):
     url = f'{base_url}/v2/configurations/{environment_id}'
