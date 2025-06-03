@@ -8,8 +8,8 @@ from requests.auth import HTTPBasicAuth
 # You need your Skytap API credentials, the environment ID where the VM and storage group are located, and the VM ID to which you want to attach the storage group.
 
 # Skytap API credentials
-login_name = 'YOUR_LOGIN_NAME_HERE'  # e.g., 'daverendon_admin'
-API_token = 'YOUR_API_TOKEN'
+login_name = 'your-login-name'  # e.g., 'daverendon_admin'
+API_token = 'your-api-token'  
 
 base_url = 'https://cloud.skytap.com'
 auth_sky = HTTPBasicAuth(login_name, API_token)
@@ -19,7 +19,7 @@ headers = {
 }
 
 # Replace this with your Environment (configuration) ID
-ENVIRONMENT_ID = 'YOUR_ENVIRONMENT_ID_HERE'  # e.g., '170350838'
+ENVIRONMENT_ID = '185625238'  # e.g., '170350838'
 
 def get_environment(environment_id):
     url = f'{base_url}/v2/configurations/{environment_id}'
@@ -102,7 +102,7 @@ def main():
 
         # Select a VM (modify logic if needed to select a specific VM)
         #vm_id = vms[1]['id']  # Example: Use the first VM in the list
-        vm_id = 'YOUR_VM_ID_HERE' #specify the VM ID directly
+        vm_id = '125505222' #specify the VM ID directly
         print(f"Using VM ID: {vm_id}")
 
         # Fetch multi-attach storage groups
