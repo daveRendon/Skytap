@@ -3,8 +3,8 @@ from requests.auth import HTTPBasicAuth
 import uuid
 
 # Skytap API credentials
-login_name = 'YOUR_LOGIN_NAME_HERE'  # e.g., 'daverendon_admin'
-API_token = 'YOUR_API_TOKEN' 
+login_name = 'your-login-name'  # e.g., 'daverendon_admin'
+API_token = 'your-api-token'  # e.g., 
 
 base_url = 'https://cloud.skytap.com'
 auth_sky = HTTPBasicAuth(login_name, API_token)
@@ -14,7 +14,7 @@ headers = {
 }
 
 # Replace this with your Environment (configuration) ID
-ENVIRONMENT_ID = 'YOUR_ENVIRONMENT_ID_HERE'  # e.g., '170350838'
+ENVIRONMENT_ID = '185625238'  # e.g., '170350838'
 
 def get_environment(environment_id):
     url = f'{base_url}/v2/configurations/{environment_id}'
