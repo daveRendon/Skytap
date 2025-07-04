@@ -63,7 +63,7 @@ Follow these steps to start with Skytap Landing Zones:
    - Deploy the Skytap Landing Zones using the guidelines provided in the deployment scripts.
 
 5. **📘 Additional Guides**
-- [Backup Strategy](./docs/backup-strategy/backup-strategy.md)
+- [Backup Strategy](./docs/backup-strategy/backup-solutions.md)
 - [AIX Best Practices](./docs/aix-best-practices/aix-best-practices.md)
 
 
