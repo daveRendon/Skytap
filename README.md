@@ -10,6 +10,21 @@ Welcome to the **Skytap Landing Zones on Azure** repository! This project provid
 
 **Skytap on Azure** provides a unique solution for running IBM Power and x86 workloads in the cloud, enabling lift-and-shift migrations without the need to modify the applications or architectures significantly. Skytap Landing Zones are pre-configured environments that follow best practices and guidelines to optimize the deployment of these workloads on Azure.
 
+## Quick Navigation
+
+- **Modules**
+   - [Skytap automation scripts](./modules) – Python utilities for inventory, storage, and environment management.
+   
+- **Documentation**
+   - [AIX Landing Zone Guide](./docs/aix/aix-landing-zone.md)
+   - [AIX Code Samples](./docs/aix/code/index.md)
+   - [AIX Best Practices](./docs/aix-best-practices/aix-best-practices.md)
+   - [Backup Strategy](./docs/backup-strategy/backup-solutions.md)
+   - [IBM i Landing Zone (WIP)](./docs/ibmi/ibmi-landing-zone.md)
+   - [Performance Navigator Guides](./docs/performance-navigator/readme.MD)
+
+> Looking for something else? Browse the full [documentation directory](./docs) for additional references.
+
 ### Key Components of a Skytap Landing Zone
 
 1. **Pre-configured Infrastructure**:
