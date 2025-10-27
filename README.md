@@ -1,84 +1,103 @@
-# Skytap Landing Zones
+# 🚀 Skytap Landing Zones on Azure
 
-Welcome to the **Skytap Landing Zones on Azure** repository! This project provides a structured approach to deploying Skytap environments on Azure, facilitating the migration of AIX and IBM i systems to Azure.
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Azure](https://img.shields.io/badge/Azure-Skytap%20on%20Azure-0078D4?logo=microsoft-azure)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
+![Made with Bicep](https://img.shields.io/badge/IaC-Bicep-5C2D91?logo=azuredevops)
+![GitHub Stars](https://img.shields.io/github/stars/daverendon/skytap?style=social)
 
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<a class="github-button" href="https://github.com/daverendon/skytap" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star daverendon/skytap on GitHub">🌟 **Star** this repository to stay updated and show your support!</a>
+Welcome to the **Skytap Landing Zones on Azure** repository!
+This project provides a **structured approach** for deploying **Skytap environments** on Azure, making it easier to migrate **AIX** and **IBM i** systems into the cloud.
 
-## Overview
+[🌟 Star this repo](https://github.com/daverendon/skytap) to stay updated and show your support!
 
-**Skytap on Azure** provides a unique solution for running IBM Power and x86 workloads in the cloud, enabling lift-and-shift migrations without the need to modify the applications or architectures significantly. Skytap Landing Zones are pre-configured environments that follow best practices and guidelines to optimize the deployment of these workloads on Azure.
+---
 
-### Key Components of a Skytap Landing Zone
+## 📖 Overview
 
-1. **Pre-configured Infrastructure**:
-   - Includes necessary virtual network settings, storage configurations, and computing resources tailored to security, compliance, and operational requirements.
+**Skytap on Azure** enables organizations to run **IBM Power** and **x86 workloads** in the cloud with a **lift-and-shift migration**—no major application or architecture changes required.
 
-2. **Security and Compliance**:
-   - Built with security controls and compliance guidelines in mind to ensure that the migrated applications adhere to organizational policies and regulatory standards.
+A **Skytap Landing Zone** is a **pre-configured environment** following best practices to help you deploy, secure, and scale workloads on Azure.
 
-3. **Connectivity**:
-   - Ensures robust connectivity options, including VPNs and ExpressRoute connections, for secure and reliable communication between the Skytap environment and on-premises data centers or other cloud services.
+### 🔑 Key Components
 
-4. **Scalability and Flexibility**:
-   - Designed to be scalable and flexible to accommodate growth and changes in the workload requirements. This includes scalable storage options and dynamic allocation of computing resources.
+1. **Pre-configured Infrastructure**
+   Virtual networks, storage, and compute resources optimized for performance, security, and compliance.
 
-5. **Automation and Orchestration**:
-   - Incorporates automation tools and scripts to simplify the migration process. This might involve using Bicep Language and Skytap APIs for automation.
+2. **Security & Compliance**
+   Built with controls and standards to meet organizational and regulatory requirements.
 
-### Purpose of a Skytap Landing Zone
+3. **Connectivity**
+   Support for **VPNs** and **ExpressRoute** to connect on-premises data centers securely and reliably.
 
-- **Risk Mitigation**: Reduces the risk associated with cloud migrations by providing a controlled and secure environment to deploy applications.
-- **Accelerate Migration**: Speeds up the migration process by offering a ready-to-use environment that reduces the setup time and complexity involved in configuring cloud resources from scratch.
-- **Best Practices Integration**: Integrates best practices for cloud deployment, management, and security, ensuring a robust and efficient cloud environment.
-- **Consistency and Standardization**: Provides a standardized approach to deploying workloads in the cloud, ensuring consistency across various projects and teams within an organization.
+4. **Scalability & Flexibility**
+   Grow and adapt resources dynamically with scalable storage and compute allocation.
 
-Skytap Landing Zones are part of a strategic approach to cloud adoption, ensuring that organizations can leverage the full benefits of the cloud while addressing the challenges of migration.
+5. **Automation & Orchestration**
+   Leverage **Bicep templates** and **Skytap APIs** to automate deployment and management.
 
-## Getting Started
+---
 
-Follow these steps to start with Skytap Landing Zones:
+## 🎯 Why Use a Landing Zone?
 
-1. **Prerequisites**:
-   - An active Azure subscription.
-   - A basic understanding of Skytap and its functionalities.
-   - Basic knowledge of Azure services like VNets, Blob Storage, and ExpressRoute.
-   - An active Skytap on Azure subscription. You can create one by following these [instructions](https://blog.azinsider.net/deploy-skytap-on-azure-using-bicep-language-to-run-your-ibm-power-workloads-a245e7c3287e?source=friends_link&sk=a863322248b8aba5288da813d569afdc)
+* ✅ **Risk Mitigation** – A secure and controlled environment reduces migration risk.
+* ⚡ **Accelerated Migration** – Ready-to-use templates shorten setup and configuration time.
+* 🛠 **Best Practices Built-in** – Security, compliance, and performance guidelines are pre-integrated.
+* 📏 **Consistency** – Standardized deployments across multiple projects and teams.
 
-2. **Select a Landing Zone (IBMi or AIX)**:
-   - Utilize the provided Bicep Language templates and scripts to set up your initial Skytap environment in Azure.
+---
 
-| OS  | Description                                                                                               |
-|-----|-----------------------------------------------------------------------------------------------------------|
-| AIX | Deploy the **[Skytap AIX Landing Zone](docs/aix/aix-landing-zone.md)**                                                          |
-| IBM | IBM i Landing Zone (work in progress) 
+## 🚦 Getting Started
 
+### 1️⃣ Prerequisites
 
-3. **Configuration**:
-   - Configure the network settings according to your organizational needs.
-   - Set up the connection between your on-premises data center and Azure using ExpressRoute or VPNs.
+* Active **Azure subscription**
+* **Skytap on Azure** subscription ([how to set it up](https://blog.azinsider.net/deploy-skytap-on-azure-using-bicep-language-to-run-your-ibm-power-workloads-a245e7c3287e?source=friends_link&sk=a863322248b8aba5288da813d569afdc))
+* Knowledge of **Azure VNets, Blob Storage, ExpressRoute**
+* Basic understanding of Skytap
 
-4. **Deployment**:
-   - Deploy the Skytap Landing Zones using the guidelines provided in the deployment scripts.
+### 2️⃣ Select a Landing Zone
 
-5. **📘 Additional Guides & Resources**
-- [Backup Strategy](./docs/backup-strategy/backup-solutions.md)
-- [AIX Best Practices](./docs/aix-best-practices/aix-best-practices.md)
-- [Performance Navigator Guides](./docs/performance-navigator/readme.MD)
+| OS        | Description                                                        |
+| --------- | ------------------------------------------------------------------ |
+| **AIX**   | [Deploy the Skytap AIX Landing Zone](docs/aix/aix-landing-zone.md) |
+| **IBM i** | IBM i Landing Zone (🚧 work in progress)                           |
 
+### 3️⃣ Configure
 
-## Contributing
+* Adjust networking to match organizational requirements.
+* Set up **ExpressRoute** or **VPN** for hybrid connectivity.
 
-We welcome contributions! You can help by:
-- **Providing Feedback** on templates and scripts.
-- **Suggesting Features** or enhancements.
-- **Improving Documentation**.
+### 4️⃣ Deploy
 
-## License
+* Use the provided **Bicep templates** and automation scripts.
 
-This project is licensed under the MIT license.
+### 5️⃣ Explore Additional Guides
 
-## Support
+* 📘 [Backup Strategy](./docs/backup-strategy/backup-solutions.md)
+* 📘 [AIX Best Practices](./docs/aix-best-practices/aix-best-practices.md)
+* 📘 [Performance Navigator Guides](./docs/performance-navigator/)
 
-For assistance, please [open an issue](https://github.com/daveRendon/skytap/issues) in this repository.
+---
+
+## 🤝 Contributing
+
+We welcome contributions!
+You can help by:
+
+* 💬 Providing **feedback** on templates and scripts
+* 💡 Suggesting **new features** or enhancements
+* 📝 Improving **documentation**
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🆘 Support
+
+For help, please [open an issue](https://github.com/daverendon/skytap/issues).
+
