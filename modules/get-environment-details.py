@@ -4,7 +4,7 @@ import json
 
 # Your Skytap "Login name" from the Skytap Portal and API token
 login_name='daverendon-monitor'
-API_token='0640addf4df485cda044336f138d6160c4b5a636'
+API_token=''
 
 base_url = 'https://cloud.skytap.com/'
 auth_sky = (login_name,API_token)
