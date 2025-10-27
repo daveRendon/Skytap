@@ -14,7 +14,6 @@ Welcome to the **Skytap Landing Zones on Azure** repository! This project provid
 
 - **Modules**
    - [Skytap automation scripts](./modules) – Python utilities for inventory, storage, and environment management.
-   
 - **Documentation**
    - [AIX Landing Zone Guide](./docs/aix/aix-landing-zone.md)
    - [AIX Code Samples](./docs/aix/code/index.md)
