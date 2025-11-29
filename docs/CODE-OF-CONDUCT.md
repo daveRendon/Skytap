@@ -1,8 +1,8 @@
 # Code of Conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+This project has adopted the <a href="https://opensource.microsoft.com/codeofconduct/" target="_blank" rel="noopener noreferrer">Microsoft Open Source Code of Conduct</a>.
 
 Resources:
 
-[Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)
+<a href="https://opensource.microsoft.com/codeofconduct/" target="_blank" rel="noopener noreferrer">Microsoft Open Source Code of Conduct</a>
 

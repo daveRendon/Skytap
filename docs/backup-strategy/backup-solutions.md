@@ -32,11 +32,11 @@ You will find separate, in-depth documents covering:
 
 ## Key References
 
-- [Skytap Well-Architected Framework](https://skytap.github.io/well-architected-framework/)
-- [Skytap Help & Documentation](https://help.skytap.com/)
-- [FalconStor StorSafe for IBM Power](https://www.falconstor.com/)
-- [Assure Mimix for AIX Product Page](https://www.precisely.com/product/precisely-assure/assure-mimix-for-aix)
-- [MIMIX for IBM i Overview](https://help.skytap.com/pwr-mimix-overview.html)
+- <a href="https://skytap.github.io/well-architected-framework/" target="_blank" rel="noopener noreferrer">Skytap Well-Architected Framework</a>
+- <a href="https://help.skytap.com/" target="_blank" rel="noopener noreferrer">Skytap Help & Documentation</a>
+- <a href="https://www.falconstor.com/" target="_blank" rel="noopener noreferrer">FalconStor StorSafe for IBM Power</a>
+- <a href="https://www.precisely.com/product/precisely-assure/assure-mimix-for-aix" target="_blank" rel="noopener noreferrer">Assure Mimix for AIX Product Page</a>
+- <a href="https://help.skytap.com/pwr-mimix-overview.html" target="_blank" rel="noopener noreferrer">MIMIX for IBM i Overview</a>
 
 ---
 
