@@ -58,7 +58,7 @@ This document provides a technical overview of the backup solutions available fo
 
 ### 2.2. **Mimix for AIX**
 
-**Product Page:** [Assure Mimix for AIX](https://www.precisely.com/product/precisely-assure/assure-mimix-for-aix)
+**Product Page:** <a href="https://www.precisely.com/product/precisely-assure/assure-mimix-for-aix" target="_blank" rel="noopener noreferrer">Assure Mimix for AIX</a>
 
 #### **Key Features**
 - **Real-time data replication and continuous availability** for AIX environments.
@@ -174,11 +174,11 @@ This document provides a technical overview of the backup solutions available fo
 
 ## 5. References
 
-- [Skytap Well-Architected Framework](https://skytap.github.io/well-architected-framework/)
-- [Skytap Help & Documentation](https://help.skytap.com/)
-- [Kyndryl Skytap Power Workload Best Practices](https://support.skytap.com/hc/en-us/articles/25613350980247-Skytap-Power-Workload-Best-Practices)
-- [FalconStor StorSafe VTL Overview (from Q1 2025 deck)](https://www.falconstor.com/)
-- [Assure Mimix for AIX Product Page](https://www.precisely.com/product/precisely-assure/assure-mimix-for-aix)
+- <a href="https://skytap.github.io/well-architected-framework/" target="_blank" rel="noopener noreferrer">Skytap Well-Architected Framework</a>
+- <a href="https://help.skytap.com/" target="_blank" rel="noopener noreferrer">Skytap Help & Documentation</a>
+- <a href="https://support.skytap.com/hc/en-us/articles/25613350980247-Skytap-Power-Workload-Best-Practices" target="_blank" rel="noopener noreferrer">Kyndryl Skytap Power Workload Best Practices</a>
+- <a href="https://www.falconstor.com/" target="_blank" rel="noopener noreferrer">FalconStor StorSafe VTL Overview (from Q1 2025 deck)</a>
+- <a href="https://www.precisely.com/product/precisely-assure/assure-mimix-for-aix" target="_blank" rel="noopener noreferrer">Assure Mimix for AIX Product Page</a>
 
 ---
 

@@ -1,6 +1,6 @@
 # Skytap AIX Landing Zone: Migrate AIX workloads to Skytap on Azure
 
-Skytap offers several strategies for migrating AIX to Skytap on Azure. For detailed guidance, refer to the following URL: [Skytap Migration Solutions](https://skytap.github.io/well-architected-framework/resiliency/solutions/mksysb-backupandrestore/#option-3---azure-blob).
+Skytap offers several strategies for migrating AIX to Skytap on Azure. For detailed guidance, refer to the following URL: <a href="https://skytap.github.io/well-architected-framework/resiliency/solutions/mksysb-backupandrestore/#option-3---azure-blob" target="_blank" rel="noopener noreferrer">Skytap Migration Solutions</a>.
 
 The Skytap AIX landing zone accelerator outlines the strategic design and target technical state for migrating AIX on-premises systems to Skytap on Azure. This solution offers a comprehensive architectural framework and reference implementation, facilitating the transition of on-premises AIX environments to Skytap on Azure.
 
@@ -43,7 +43,7 @@ Follow these assertive steps to efficiently migrate AIX systems from an on-premi
 
 1. **Create NIM Server in Skytap**: Create a NIM Server in your Skytap environment. You can do so by using the Skytap Portal or using the following [Python Script to create NIM Server in Skytap](/docs/aix/code/nim-server.py)
 
-1. **Migrate Backups to Skytap**: Utilize ExpressRoute or VPN to transfer the mksysb backup files to Skytap. Securely copy these files from the Jumpbox VM to the Network Installation Management (NIM) server using SCP. [Download WinSCP](https://winscp.net/download/WinSCP-6.3.4-Setup.exe/download)
+1. **Migrate Backups to Skytap**: Utilize ExpressRoute or VPN to transfer the mksysb backup files to Skytap. Securely copy these files from the Jumpbox VM to the Network Installation Management (NIM) server using SCP. <a href="https://winscp.net/download/WinSCP-6.3.4-Setup.exe/download" target="_blank" rel="noopener noreferrer">Download WinSCP</a>
 
 1. **Restore Mksysb Files**: Initiate the Mksysb restoration process on the target systems within Skytap.
 

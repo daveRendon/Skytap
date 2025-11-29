@@ -41,7 +41,7 @@ FalconStor StorSafe is a **certified solution for IBM i in Skytap**. It delivers
 
 ## 3. MIMIX for IBM i
 
-[MIMIX for IBM i](https://help.skytap.com/pwr-mimix-overview.html) is a leading **real-time logical replication and HA/DR solution** for IBM i, fully supported in Skytap.
+<a href="https://help.skytap.com/pwr-mimix-overview.html" target="_blank" rel="noopener noreferrer">MIMIX for IBM i</a> is a leading **real-time logical replication and HA/DR solution** for IBM i, fully supported in Skytap.
 
 **Key features:**
 - **Continuous, real-time replication** at the object or journaled level (minimal RPO/RTO).
@@ -52,8 +52,8 @@ FalconStor StorSafe is a **certified solution for IBM i in Skytap**. It delivers
 - **Integrated monitoring, role swap, and scripting for managed DR**.
 
 **Resources:**
-- [MIMIX for IBM i Overview](https://help.skytap.com/pwr-mimix-overview.html)
-- [Installation Guide](https://help.skytap.com/pwr-mimix-installation.html)
+- <a href="https://help.skytap.com/pwr-mimix-overview.html" target="_blank" rel="noopener noreferrer">MIMIX for IBM i Overview</a>
+- <a href="https://help.skytap.com/pwr-mimix-installation.html" target="_blank" rel="noopener noreferrer">Installation Guide</a>
 
 ---
 
@@ -93,8 +93,8 @@ Commvault delivers multi-platform backup and restore with advanced deduplication
 **A. On-premises → Skytap over VPN or ExR**  
 - Use VPN or ExpressRoute Global Reach for secure connectivity between your datacenter and Skytap.
 - Backup/replication can be routed over this private link.
-- [Skytap VPN Setup](https://help.skytap.com/wan-create-vpn.html)  
-- [ExpressRoute Setup](https://help.skytap.com/wan-create-self-managed-expressroute.html)
+- <a href="https://help.skytap.com/wan-create-vpn.html" target="_blank" rel="noopener noreferrer">Skytap VPN Setup</a>  
+- <a href="https://help.skytap.com/wan-create-self-managed-expressroute.html" target="_blank" rel="noopener noreferrer">ExpressRoute Setup</a>
 
 **B. Skytap to Skytap (DR)**  
 - Leverage region-to-region replication with FalconStor or MIMIX for robust DR, ransomware protection, and regulatory compliance.
@@ -120,10 +120,10 @@ Commvault delivers multi-platform backup and restore with advanced deduplication
 
 ## 10. References
 
-- [Skytap IBM i Documentation](https://help.skytap.com/)
-- [MIMIX for IBM i Overview](https://help.skytap.com/pwr-mimix-overview.html)
-- [MIMIX for IBM i Installation](https://help.skytap.com/pwr-mimix-installation.html)
-- [FalconStor StorSafe for IBM Power](https://www.falconstor.com/)
+- <a href="https://help.skytap.com/" target="_blank" rel="noopener noreferrer">Skytap IBM i Documentation</a>
+- <a href="https://help.skytap.com/pwr-mimix-overview.html" target="_blank" rel="noopener noreferrer">MIMIX for IBM i Overview</a>
+- <a href="https://help.skytap.com/pwr-mimix-installation.html" target="_blank" rel="noopener noreferrer">MIMIX for IBM i Installation</a>
+- <a href="https://www.falconstor.com/" target="_blank" rel="noopener noreferrer">FalconStor StorSafe for IBM Power</a>
 
 ---
 

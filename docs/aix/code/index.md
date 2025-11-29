@@ -4,9 +4,9 @@ The primary objective of this Skytap AIX Landing Zone is to set up all necessary
 
 ### 🚀 Prerequisites: ###
 
-1. **Install Required Tooling:** [VS Code and Bicep](https://docs.microsoft.com/azure/azure-resource-manager/bicep/install?WT.mc_id=AZ-MVP-5000671).
-2. **Create Your Skytap Account:** [Skytap on Azure](https://www.skytap.com/blog/creating-a-skytap-on-azure-account-from-the-azure-marketplace/).
-3. **Set Up ExpressRoute Connection (Optional):** [Using the Skytap Portal](https://help.skytap.com/wan-create-self-managed-expressroute.html).
+1. **Install Required Tooling:** <a href="https://docs.microsoft.com/azure/azure-resource-manager/bicep/install?WT.mc_id=AZ-MVP-5000671" target="_blank" rel="noopener noreferrer">VS Code and Bicep</a>.
+2. **Create Your Skytap Account:** <a href="https://www.skytap.com/blog/creating-a-skytap-on-azure-account-from-the-azure-marketplace/" target="_blank" rel="noopener noreferrer">Skytap on Azure</a>.
+3. **Set Up ExpressRoute Connection (Optional):** <a href="https://help.skytap.com/wan-create-self-managed-expressroute.html" target="_blank" rel="noopener noreferrer">Using the Skytap Portal</a>.
 4. **Create Resource Group:** Name it `skytap-landing-zone`.
 
 ## 📝 Analysis of the Bicep template: ###
@@ -64,7 +64,7 @@ You can also utilize a Bicep parameters file for added flexibility.
 
 ### Option 2: Azure Portal Deployment
 
-1. Open CloudShell(PowerShell) in the [Azure Portal](https://portal.azure.com) and clone the repository:
+1. Open CloudShell(PowerShell) in the <a href="https://portal.azure.com" target="_blank" rel="noopener noreferrer">Azure Portal</a> and clone the repository:
 
 ```powershell
 git clone https://github.com/daveRendon/skytap.git
@@ -94,7 +94,7 @@ Once the deployment completes, you can follow the below steps:
      #### Preparing your python script to deploy NIM Server:
    1. **API Credentials**: You must have valid Skytap API credentials (Login name and API token). These are crucial for the authentication part of the script.
 
-   3. **Python Environment**: Ensure Python is installed on your system along with the `requests` library. If not, you can install Python from [python.org](https://www.python.org/downloads/) and install the `requests` library using pip:
+   3. **Python Environment**: Ensure Python is installed on your system along with the `requests` library. If not, you can install Python from <a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">python.org</a> and install the `requests` library using pip:
 
       ```bash
       pip install requests
@@ -122,7 +122,7 @@ Once the deployment completes, you can follow the below steps:
 
 
 
-1. **Migrate the Mksysb Backups from Blob Storage to Skytap**: Copy the Mksysb files from the JumpboxVM data disks to the NIM server using SCP. (https://winscp.net/download/WinSCP-6.3.4-Setup.exe/download)
+1. **Migrate the Mksysb Backups from Blob Storage to Skytap**: Copy the Mksysb files from the JumpboxVM data disks to the NIM server using SCP. (<a href="https://winscp.net/download/WinSCP-6.3.4-Setup.exe/download" target="_blank" rel="noopener noreferrer">Download WinSCP</a>)
 
 1. **Restore Mksysb Files**: Initiate the Mksysb restoration process on the target systems within Skytap.
 

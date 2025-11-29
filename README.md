@@ -9,7 +9,7 @@
 Welcome to the **Skytap Landing Zones on Azure** repository!
 This project provides a **structured approach** for deploying **Skytap environments** on Azure, making it easier to migrate **AIX** and **IBM i** systems into the cloud.
 
-[🌟 Star this repo](https://github.com/daverendon/skytap) to stay updated and show your support!
+<a href="https://github.com/daverendon/skytap" target="_blank" rel="noopener noreferrer">🌟 Star this repo</a> to stay updated and show your support!
 
 ---
 
@@ -52,7 +52,7 @@ A **Skytap Landing Zone** is a **pre-configured environment** following best pra
 ### 1️⃣ Prerequisites
 
 * Active **Azure subscription**
-* **Skytap on Azure** subscription ([how to set it up](https://blog.azinsider.net/deploy-skytap-on-azure-using-bicep-language-to-run-your-ibm-power-workloads-a245e7c3287e?source=friends_link&sk=a863322248b8aba5288da813d569afdc))
+* **Skytap on Azure** subscription (<a href="https://blog.azinsider.net/deploy-skytap-on-azure-using-bicep-language-to-run-your-ibm-power-workloads-a245e7c3287e?source=friends_link&sk=a863322248b8aba5288da813d569afdc" target="_blank" rel="noopener noreferrer">how to set it up</a>)
 * Knowledge of **Azure VNets, Blob Storage, ExpressRoute**
 * Basic understanding of Skytap
 
@@ -99,5 +99,5 @@ This project is licensed under the **MIT License**.
 
 ## 🆘 Support
 
-For help, please [open an issue](https://github.com/daverendon/skytap/issues).
+For help, please <a href="https://github.com/daverendon/skytap/issues" target="_blank" rel="noopener noreferrer">open an issue</a>.
 

@@ -61,8 +61,8 @@ lsattr -El hdiskX -a rw_timeout
 **Best Practice:**\
 Set `rw_timeout = 120` and `queue_depth = 10` for each hdisk.
 
-- [Skytap Power Workload Best Practices](https://support.skytap.com/hc/en-us/articles/25613350980247-Skytap-Power-Workload-Best-Practices)
-- [Optimizing AIX Read/Write Operations](https://support.skytap.com/hc/en-us/articles/24718995086743-Optimizing-AIX-Read-Write-Operations-for-Skytap-hosted-Logical-Partitions-LPARs)
+- <a href="https://support.skytap.com/hc/en-us/articles/25613350980247-Skytap-Power-Workload-Best-Practices" target="_blank" rel="noopener noreferrer">Skytap Power Workload Best Practices</a>
+- <a href="https://support.skytap.com/hc/en-us/articles/24718995086743-Optimizing-AIX-Read-Write-Operations-for-Skytap-hosted-Logical-Partitions-LPARs" target="_blank" rel="noopener noreferrer">Optimizing AIX Read/Write Operations</a>
 
 ---
 
@@ -99,8 +99,8 @@ Set `rw_timeout = 120` and `queue_depth = 10` for each hdisk.
 
 ## References
 
-- [Skytap Power Workload Best Practices](https://support.skytap.com/hc/en-us/articles/25613350980247-Skytap-Power-Workload-Best-Practices)
-- [Optimizing AIX Read/Write Operations for Skytap-hosted LPARs](https://support.skytap.com/hc/en-us/articles/24718995086743-Optimizing-AIX-Read-Write-Operations-for-Skytap-hosted-Logical-Partitions-LPARs)
+- <a href="https://support.skytap.com/hc/en-us/articles/25613350980247-Skytap-Power-Workload-Best-Practices" target="_blank" rel="noopener noreferrer">Skytap Power Workload Best Practices</a>
+- <a href="https://support.skytap.com/hc/en-us/articles/24718995086743-Optimizing-AIX-Read-Write-Operations-for-Skytap-hosted-Logical-Partitions-LPARs" target="_blank" rel="noopener noreferrer">Optimizing AIX Read/Write Operations for Skytap-hosted LPARs</a>
 
 ---
 
