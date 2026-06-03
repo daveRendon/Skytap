@@ -5,7 +5,7 @@
 > **Note:** The host code data collection is free, has no CPU overhead, and requires less than 5GB of disk space even after several years.
 
 1. On AIX / Linux, run as `root`. In the case of VIOS, you need to login as `padmin` and then type `oem_setup_env`.
-2. Download from [here](https://s3.amazonaws.com/hsdownloads.helpsystems.com/software/robot/performance-nav/powernav.tar.gz).
+2. Download `powernav.tar.gz` from [https://cdn.fortra.com/software/robot/performance-nav/powernav.tar.gz](https://cdn.fortra.com/software/robot/performance-nav/powernav.tar.gz).
 3. FTP to `/tmp` [or any other directory, just note that the next step refers to `/tmp`].
 4. If the system already has NMON running and/or there is a central repository, go to the next section to use the existing data.
 5. Run the following command:
@@ -22,7 +22,7 @@
 
 If the system already has historical NMON data, we can use the existing NMON data.
 
-1. Download the following script: [here](https://hsdownloads.helpsystems.com/software/robot/performance-nav/pnbuild.tar.gz).
+1. Download `pnbuild.tar.gz` from [https://cdn.fortra.com/software/robot/performance-nav/pnbuild.tar.gz](https://cdn.fortra.com/software/robot/performance-nav/pnbuild.tar.gz).
 2. FTP `pnbuild.tar.gz` to the same directory as the existing NMON directory. This directory can have NMON data from multiple partitions or even subdirectories for each partition.
 3. Unzip, untar all files, and run the script:
 
@@ -40,8 +40,8 @@ The script will create a file called `pninfo_hostname` or `multiple.tar.gz`. Sen
 
 By default, AIX systems have 7 days of Topas data. This data is good enough for CPU core capacity planning but lacks detailed data for disk and memory. This is most often used for VIOS partitions.
 
-1. Download [here](https://hsdownloads.helpsystems.com/software/robot/performance-nav/rackdata.tar.gz).
-2. FTP `rackdata.tar.gz` to `/tmp`, unzip, untar, and run:
+1. Download the Topas data script from [https://cdn.fortra.com/software/robot/performance-nav/pnbuild.tar.gz](https://cdn.fortra.com/software/robot/performance-nav/pnbuild.tar.gz).
+2. FTP `pnbuild.tar.gz` to `/tmp`, unzip, untar, and run:
 
     ```bash
     ./rackdata.sh -T
